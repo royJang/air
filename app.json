@@ -1,0 +1,54 @@
+[
+  {
+    "tags": [
+      {
+        "type": "interface",
+        "string": "get_fav_list",
+        "html": "<p>get_fav_list</p>"
+      },
+      {
+        "type": "head",
+        "string": "string Content-Type application/json",
+        "html": "<p>string Content-Type application/json</p>"
+      },
+      {
+        "type": "head",
+        "string": "number Content-Length",
+        "html": "<p>number Content-Length</p>"
+      },
+      {
+        "type": "req",
+        "string": "size number @number<1,100> page size",
+        "html": "<p>size number @number<1,100> page size</p>"
+      },
+      {
+        "type": "req",
+        "string": "pn number @number<1,100> page number",
+        "html": "<p>pn number @number<1,100> page number</p>"
+      },
+      {
+        "type": "res",
+        "string": "    ret\n        errCode string\n        errMsg string\n        result array @this.size\n            _id string @uuid\n     \t   order_num number\n            sub array number\n    \t       title string\n     \t   unique_name string\n        success boolean",
+        "html": "<pre><code>ret\n    errCode string\n    errMsg string\n    result array @this.size\n        _id string @uuid\n        order_num number\n        sub array number\n           title string\n        unique_name string\n    success boolean\n</code></pre>"
+      }
+    ],
+    "description": {
+      "full": "",
+      "summary": "",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isClass": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 1,
+    "codeStart": 23,
+    "code": "function get_fav_list (){\n\n}",
+    "ctx": {
+      "type": "function",
+      "name": "get_fav_list",
+      "string": "get_fav_list()"
+    }
+  }
+]

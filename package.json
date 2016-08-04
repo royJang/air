@@ -1,0 +1,28 @@
+{
+  "name": "air",
+  "version": "0.1.0",
+  "description": "air ",
+  "main": "none",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/royJang/air.git"
+  },
+  "keywords": [
+    "air",
+    "interface",
+    "manage"
+  ],
+  "author": "royjang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/royJang/air/issues"
+  },
+  "homepage": "https://github.com/royJang/air#readme",
+  "dependencies": {
+    "dox": "^0.8.1",
+    "lodash": "^4.14.1"
+  }
+}
